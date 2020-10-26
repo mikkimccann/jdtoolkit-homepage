@@ -1,5 +1,9 @@
 body {
-	background-color: #fefefe;
+	background-image: url('images/portfolio background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+  	
 	margin: 1em auto;
 	font-size: 10px;
 	padding: 1em;
@@ -8,13 +12,57 @@ body {
 }
 
 h1 {
-	color: #555555;
+	color: #AC1717;
 	font-size: 3em;
 }
 
+a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFA200;
+  text-decoration: none;
+}
+
+a:active {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.topnav {
+  background-color: ;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
 p {
-	font-family: "Times New Roman", serif;
-	color: #444;
+	font-family:"Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	color: #FFF;
 	max-width: 30em;
 	width: 100%;
 	text-align: left;
@@ -30,3 +78,33 @@ img.logo {
 	max-height: 40em;
 	margin: 2em auto;
 }
+
+img.title {
+	width: 500px;
+	height: auto;
+	max-width: 500px;
+}
+
+img.ass1 {
+	width: 100%;
+	height: auto;
+	max-width: 100em;
+	max-height: 100em;
+	margin: 2em auto;
+	}
+	
+img.ass2 {
+	width: 100%;
+	height: auto;
+	max-width: 70em;
+	max-height: 70em;
+	margin: 2em auto;
+	}
+	
+img.ass3 {
+	width: 100%;
+	height: auto;
+	max-width: 60em;
+	max-height: 60em;
+	margin: 2em auto;
+	}
