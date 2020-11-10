@@ -1,5 +1,5 @@
 body {
-	background-image: url('images/portfolio background.jpg');
+	background-image: url('images/website background.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
   	background-size: cover;
@@ -12,38 +12,41 @@ body {
 }
 
 h1 {
-	color: #AC1717;
+	color: #e93b45;
 	font-size: 3em;
+	margin-top: 100px;
+	margin-bottom: 60px;
 }
 
 a:link {
-  color: #FFF;
+  color: #383838;
   text-decoration: none;
 }
 
 a:visited {
-  color: #FFF;
+  color: #383838;
   text-decoration: none;
 }
 
 a:hover {
-  color: #FFA200;
+  color: #e93b45;
   text-decoration: none;
 }
 
 a:active {
-  color: #FFF;
+  color: #383838;
   text-decoration: none;
 }
 
 .topnav {
-  background-color: ;
+  padding: 14px 16px;
   overflow: hidden;
+	margin-bottom: 40px;
 }
 
 .topnav a {
-  float: center;
-  color: #f2f2f2;
+  float: right;
+  color: #383838;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -51,18 +54,18 @@ a:active {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #f1d6ca;
   color: black;
 }
 
 .topnav a.active {
   background-color: #4CAF50;
-  color: white;
+  color: #383838;
 }
 
 p {
 	font-family:"Helvetica Neue", "Helvetica", "Arial", sans-serif;
-	color: #FFF;
+	color: #383838;
 	max-width: 30em;
 	width: 100%;
 	text-align: left;
@@ -70,6 +73,12 @@ p {
 	font-size: 1.8em;
 	line-height: 1.3;
 	}
+
+.pagecontent {
+   border: 1px solid white;
+   margin-left: 300px;
+   margin-right: 300px;
+}
 
 img.logo {
 	width: 100%;
@@ -80,9 +89,33 @@ img.logo {
 }
 
 img.title {
-	width: 500px;
+	width: 350px;
 	height: auto;
-	max-width: 500px;
+	max-width: 350px;
+}
+
+img.titleleft {
+	width: auto;
+	height: 600px;
+	max-height: 600px;
+	float: left;
+}
+
+img.titleright {
+	width: auto;
+	height: 600px;
+	max-height: 600px;
+	float: right;
+}
+
+img.centerimage {
+	width: 700px;
+	height: auto;
+	max-width: 700px;
+	float: center;
+	padding-left: 300px;
+    padding-right: 300px;
+    margin-bottom: 100px;
 }
 
 img.ass1 {
@@ -91,6 +124,7 @@ img.ass1 {
 	max-width: 100em;
 	max-height: 100em;
 	margin: 2em auto;
+	
 	}
 	
 img.ass2 {
