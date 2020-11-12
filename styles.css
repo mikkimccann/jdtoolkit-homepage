@@ -115,11 +115,11 @@ img.centerimage {
 	width: 700px;
 	height: auto;
 	max-width: 700px;
-	float: center;
-	padding-left: 300px;
-    padding-right: 300px;
+	position: center;
     margin-bottom: 100px;
     margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 img.ass1 {
