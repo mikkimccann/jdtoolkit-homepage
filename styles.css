@@ -78,6 +78,7 @@ p {
    border: 1px solid white;
    margin-left: 300px;
    margin-right: 300px;
+   margin-bottom: 100px;
 }
 
 img.logo {
@@ -98,14 +99,16 @@ img.titleleft {
 	width: auto;
 	height: 600px;
 	max-height: 600px;
-	float: left;
+	position: absolute;
+	left: 10px;
 }
 
 img.titleright {
 	width: auto;
 	height: 600px;
 	max-height: 600px;
-	float: right;
+	position: absolute;
+  	right: 10px;
 }
 
 img.centerimage {
@@ -116,6 +119,7 @@ img.centerimage {
 	padding-left: 300px;
     padding-right: 300px;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 img.ass1 {
@@ -142,3 +146,49 @@ img.ass3 {
 	max-height: 60em;
 	margin: 2em auto;
 	}
+	
+.footer {
+  background-color: #383838;
+  text-align: center;
+  padding: 30px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+
+h2 {
+	color: #f1d6ca;
+	font-size: 2em;
+}
+
+ul {
+	text-align: center;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	color: #f1d6ca;
+	font-size: 15px;
+}
+
+li {
+	display: inline;
+	margin: 30px;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	color: #f1d6ca;
+	font-size: 15px;
+}
+
+a.footertext: {
+	color: #f1d6ca; 
+	text-decoration: none;
+}
+
+a.footertext:link {
+	color: #f1d6ca;
+}
+
+a.footertext:visited {
+	color: #f1d6ca;
+}
+
+a.footertext:hover {
+	color: #e93b45;
+}
